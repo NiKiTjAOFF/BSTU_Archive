@@ -1,0 +1,7 @@
+body {
+	background-color:gray;
+}
+ a:link {color:#4b0082;}
+a:visited {color:#00ff00;}
+a:hover {background-color:#4b0082; color:#dc143c; font-size:25px;}
+a:active {background-color:#00ff00}

@@ -1,0 +1,132 @@
+/* обнуление) */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.dline-block_lheight_marginb {
+    line-height: 1.79;
+    margin: 0px 0px 33px 0px;
+    width: 611px;
+}
+
+.lheight_paddingb_tmarginb {
+    line-height: 1.79;
+    padding: 0px 0px 42px 0px;
+    border: 1px solid black;
+    margin: 32px 0px 34px 0px;
+}
+
+.dline-block_marginr {
+    display: inline-block;
+    margin: 0px 41px 35px 0px;
+}
+
+.dline {
+    display: inline;
+
+}
+
+.lpaddingr_dline-block_marginrb {
+    border: 1px solid black;
+    padding: 0px 26px 0px 26px;
+    margin: 0px 42px 0px 0px;
+}
+
+.paddingr {
+    border: 1px solid black;
+    display: inline;
+    padding: 0px 26px 0px 0px;
+}
+
+.dblock_tpaddingb {
+    display: inline-block;
+
+    border: 1px solid black;
+    padding: 48.5px 0px 48.5px 0px;
+    margin: 37px 0px 0px 0px;
+}

@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 1200px;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container footer {
+    align-self: flex-end;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+}
+
+.content {
+    flex: 1;
+}
+
+.hover {
+    text-align: center;
+    font-size: 21px;
+}
+
+.hover a:hover {
+    color: red;
+}
+
+.img {
+    max-width: 1200px;
+    height: 400px;
+    margin: 30px 20px 50px 20px;
+    background: url('/fonstola.ru-48738.jpg') 0 0/1200px 400px no-repeat;
+}
+
+.list {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+ul li:nth-child(2n+1) {
+    color: green;
+}
+
+ol li:nth-child(2n) {
+    color: red;
+}
+
+.text {
+    margin: 0px 0px 30px 0px;
+}
+
+.flex_blocks {
+    width: 1200;
+    height: 100px;
+    position: relative;
+    margin: 0px 15px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.red,.green,.blue {
+    width: 100%;
+    height: 100%;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.footer {
+    width: 1200px;
+    height: 80px;
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-transform: uppercase;
+    margin: 40px 0px 0px 0px;
+    background: gray;
+}

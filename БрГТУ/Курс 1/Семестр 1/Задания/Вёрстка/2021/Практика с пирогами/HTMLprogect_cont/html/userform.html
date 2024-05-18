@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Работа с формами</title>
+</head>
+
+<body align="center" bgcolor="yellow">
+    <img src="/img/Пирог1.jpg" width="30%" height="100%" alt="sorry" align="left">
+    <img src="/img/Пирог1.jpg" width="30%" height="100%" alt="sorry" align="right">
+    <form action="*" method="POST" enctype="multipart/form-data">
+        <div>
+            <p>Имя</p>
+            <input placeholder="Имя" required tabindex="1" type="text" name="username">
+        </div>
+        <div>
+            <p>Пароль</p>
+            <input placeholder="Пароль" required tabindex="2" type="password" name="userpass">
+        </div>
+        <div>
+            <p>Телефон</p>
+            <input placeholder="Телефон" required tabindex="3" type="tel" name="userphone">
+        </div>
+        <p>Пол</p>
+        <div>
+            <p><input tabindex="4" required type="radio" checked name="gender" value="male">Мужской
+                <br> <input tabindex="4" required type="radio" name="gender" value="female">Женский</p>
+        </div>
+        <div>
+            <p>Имущество</p>
+            <input tabindex="5" type="checkbox" checked name="bike" value="yes">Велик<br>
+            <input tabindex="6" type="checkbox" name="car" value="yes">Машина<br>
+            <input tabindex="7" type="checkbox" name="flat" value="yes">Квартира<br>
+            <input tabindex="8" type="checkbox" name="house" value="yes">Дом
+        </div>
+        <img src="/img/Пирог1.jpg" width="30%" height="100%" alt="sorry" align="right">
+        <img src="/img/Пирог1.jpg" width="30%" height="100%" alt="sorry" align="left">
+        <div>
+            <p>Дополнительная информация</p>
+            <textarea tabindex="9" name="text"></textarea>
+        </div>
+        <div>
+            <p>Прикрепить фото</p>
+            <input tabindex="10" type="file" name="userfoto">
+        </div>
+        <div>
+            <p>Любимый цвет</p>
+            <select tabindex="11" name="color">
+                <option value="red" selected>Красный</option>
+                <option value="orange">Оранжевый</option>
+                <option value="yellow">Жёлтый</option>
+                <option value="green">Зелёный</option>
+                <option value="blue">Синий</option>
+            </select>
+        </div>
+        <div>
+            <p>Действия</p>
+            <button tabindex="12" type="submit">Отправить</button>
+            <button tabindex="13" type="reset">очистить</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>

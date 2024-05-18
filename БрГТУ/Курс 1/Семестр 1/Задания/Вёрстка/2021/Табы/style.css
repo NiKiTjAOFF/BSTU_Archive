@@ -1,0 +1,36 @@
+.tab__row {
+    display: flex;
+}
+
+.tab__item {
+    text-decoration: none;
+    color: #000;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 2px solid black;
+}
+
+.tab__item:hover {
+    background: cyan;
+}
+
+.tab__item--active {
+    background: gray;
+}
+
+.tab__item-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    display: none;
+    border: 2px solid black;
+}
+
+.tab__item-text--active {
+    display: block;
+    background: gray;
+}

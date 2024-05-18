@@ -1,0 +1,228 @@
+/* обнуление) */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+
+.background {
+    width: 100%;
+    height: 1700px;
+    padding: 0px 108px 137px 142px;
+    object-fit: contain;
+    background-color: #e8e8e8;
+}
+
+.bgphoto {
+    padding: 62px 0px 0px 0px;
+    background: url('../image/group-1.png') 0px 0px/1190px 1064px no-repeat;
+}
+
+.travel {
+    width: 67px;
+    height: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0px 594px 17px 529px;
+    letter-spacing: 2.8px;
+    color: rgba(39, 61, 70, 0.6);
+}
+
+.donec_1 {
+    width: 724px;
+    height: 75px;
+    margin: 0px 264px 88px 205px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    line-height: 1.39;
+    text-align: center;
+    color: #273d46;
+}
+
+.bgx2 {
+    width: 841px;
+    height: 561px;
+    margin: 0px 202px 0px 147px;
+    box-shadow: 0px 15px 65px 0 rgba(15, 16, 16, 0.15);
+    background: url('../image/light-man-copy.png') 10px 10px/821px 541px no-repeat,
+        url('../image/layer-1.jpg') 0px 0px/841px 561px no-repeat;
+
+}
+
+.donec_2 {
+    width: 736px;
+    height: 257px;
+    margin: 86px 262px 62px 192px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.67;
+    color: rgba(39, 61, 70, 0.8);
+}
+
+.ul {
+    width: 458px;
+    height: 140px;
+    margin: 0px 544px 41px 188px;
+    object-fit: contain;
+}
+
+.li1 {
+    width: 457px;
+    height: 19px;
+    margin: 10px 0px 0px 0px;
+    text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    color: #273d46;
+    background: url('../image/check-icon.png') 0 0 no-repeat;
+}
+
+.li2 {
+    width: 365px;
+    height: 19px;
+    margin: 14px 90px 17px 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+    color: #80b7b3;
+    background: url('../image/check-icon.png') 0 0 no-repeat;
+}
+
+.li3 {
+    width: 414px;
+    height: 20px;
+    margin: 0px 47px 0px 0px;
+    object-fit: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    color: #273d46;
+    background: url('../image/check-icon.png') 0 0 no-repeat;
+}
+
+.li4 {
+    width: 430px;
+    height: 19px;
+    margin: 16px 0px 0px 0px;
+    object-fit: contain;
+    text-decoration: line-through;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    color: rgba(39, 61, 70, 0.3);
+    background: url('../image/check-icon.png') 0 0 no-repeat;
+}
+
+.button {
+    width: 199px;
+    height: 44px;
+    margin: 0px 803px 0 188px;
+    object-fit: contain;
+    border: 1px solid rgba(128, 183, 179, 0.54);
+    border-radius: 20px;
+    box-shadow: 0px 6px 40px 0 rgba(128, 183, 179, 0.54);
+    background-color: #80b7b3;
+}
+
+.button div {
+    width: 156px;
+    height: 20px;
+    margin: 12px 0px 7px 15px;
+    padding: 0px 0px 0px 12px;
+    object-fit: contain;
+    font-family: Arial;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    background: url('../image/shape-2.png') 100% 0/21px 14px no-repeat;
+}
